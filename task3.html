@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    <form action="server url" method="POST"></form> 
+    <h1>Order food</h1> 
+        <fieldset> 
+            <legend>Billing details</legend> 
+            <label for="First name">First name*</label> 
+            <input type="text" required name="First name" id="First name" tabindex="1"> 
+            <br> 
+            <br> 
+            <label for="Last name">Last name*</label> 
+            <input type="text" required name="Last name" id="Last name" tabindex="2"> 
+            <br> 
+            <br> 
+            <label for="Email">Email*</label> 
+            <input type="text" required name="Email" id="Email" tabindex="3" placeholder="Contact email"> 
+            <br> 
+            <br> 
+            <label for="Mobile number">Mobile number*</label> 
+            <input type="number" required name="Mobile number" id="Mobile number" tabindex="4" placeholder="+380XXXXXXXXX"> 
+            <br> 
+            <br>
+        </fieldset> 
+            <fieldset> 
+                <legend>Address</legend> 
+             <label for="City">City*</label> 
+             <input type="text" required name="City" id="City" tabindex="5"> 
+             <br> 
+             <br> 
+             <label for="Street">Street*</label> 
+             <input type="text" required name="Street" id="Street" tabindex="6" placeholder="Street name"> 
+             <br> 
+             <br> 
+             <label for="Street number">Street number*</label> 
+             <input type="number" required name="Street" id="Street" tabindex="7" placeholder="Street number"> 
+             <br> 
+             <br> 
+             <label for="Flat">Flat</label> 
+             <input type="number"  name="Flat" id="Flat" tabindex="8" placeholder="Flat"> 
+             <br> 
+             <br>
+            </fieldset> 
+                 <fieldset> 
+                     <legend>Pay options</legend> 
+                     <label for="Pay type">Pay type:</label> 
+                     <br> 
+                     <br>
+                     <label for="Cash">Cash</label>
+                     <input type="radio" name="Cash" id="Cash"> 
+                     <br> 
+                     <br>
+                     <label for="Credit card">Credit card</label>
+                     <input type="radio" name="Credit card" id="Credit card">
+
+                </fieldset> 
+                <fieldset>
+                    <legend>Additional options</legend> 
+                    <input type="checkbox" name="Create an account" id="Create an account"> 
+                    <label for="Create an account">Create an account?</label> 
+                    <br>Notes:<br> 
+                  <textarea cols="30" rows="10" wrap="soft" >Enter notes about delivery or food</textarea> 
+                   <br>
+                </fieldset>  
+                <br>
+                <button>Place order</button>
+    
+
+    
+</body>
+</html>
